@@ -1,9 +1,9 @@
-@import "./font.css";
-@import "./general.css";
-@import "./animation.css";
-@import "../css/query/mobile_slider.css" only screen and (min-width:0px);
-@import "../css/query/mobile_logo.css" only screen and (min-width:0px);
-@import "../css/query/mobile_backgruond.css" only screen and (min-width:0px);
-@import "../css/query/desktop_slider.css" only screen and (min-width:920px);
-@import "../css/query/desktop_logo.css" only screen and (min-width:920px);
-@import "../css/query/dsktop_backgruond.css" only screen and (min-width:920px);
+@import "/font.css";
+@import "/general.css";
+@import "/animation.css";
+@import "/css/query/mobile_slider.css" only screen and (min-width:0px);
+@import "/css/query/mobile_logo.css" only screen and (min-width:0px);
+@import "/css/query/mobile_backgruond.css" only screen and (min-width:0px);
+@import "/css/query/desktop_slider.css" only screen and (min-width:920px);
+@import "/css/query/desktop_logo.css" only screen and (min-width:920px);
+@import "/css/query/dsktop_backgruond.css" only screen and (min-width:920px);

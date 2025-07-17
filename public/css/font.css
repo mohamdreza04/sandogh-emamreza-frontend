@@ -1,23 +1,23 @@
 @font-face {
     font-family: shabnam_light;
-    src: url(../font-2/Shabnam-Light-FD.eot);
-    src: url(../font-2/Shabnam-Light-FD.ttf);
-    src: url(../font-2/Shabnam-Light-FD.woff);
-    src: url(../font-2/Shabnam-Light-FD.woff2);
+    src: url(/font-2/Shabnam-Light-FD.eot);
+    src: url(/font-2/Shabnam-Light-FD.ttf);
+    src: url(/font-2/Shabnam-Light-FD.woff);
+    src: url(/font-2/Shabnam-Light-FD.woff2);
 }
 @font-face {
     font-family: shabnam_mediom;
-    src: url(../font-2/Shabnam-Medium-FD.eot);
-    src: url(../font-2/Shabnam-Medium-FD.ttf);
-    src: url(../font-2/Shabnam-Medium-FD.woff);
-    src: url(../font-2/Shabnam-Medium-FD.woff2);
+    src: url(/font-2/Shabnam-Medium-FD.eot);
+    src: url(/font-2/Shabnam-Medium-FD.ttf);
+    src: url(/font-2/Shabnam-Medium-FD.woff);
+    src: url(/font-2/Shabnam-Medium-FD.woff2);
 }
 @font-face {
     font-family: shabnam_regolar;
-    src: url(../font-2/Shabnam-FD.eot);
-    src: url(../font-2/Shabnam-FD.ttf);
-    src: url(../font-2/Shabnam-FD.woff);
-    src: url(../font-2/Shabnam-FD.woff2);
+    src: url(/font-2/Shabnam-FD.eot);
+    src: url(/font-2/Shabnam-FD.ttf);
+    src: url(/font-2/Shabnam-FD.woff);
+    src: url(/font-2/Shabnam-FD.woff2);
 }
 @font-face {
     font-family: shabnam_thin;
