@@ -1,0 +1,132 @@
+ main{
+        display: flex;
+    }
+
+    section.backgruond{
+        width: 70%;
+        background: linear-gradient(90deg,rgb(13, 12, 12),rgb(1,41,43));  
+    }
+
+    section.backgruond>section.matn{
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        margin-top: 20vh;
+        flex-direction: column;
+        z-index: 110;
+    }
+
+    section.backgruond>section.matn>h1{
+        color: rgb(220, 202, 44);
+        font-size: 40px;
+        margin-right: 70px;
+        z-index:100;
+        font-family: shabnam;
+    }
+
+    section.backgruond>section.matn>h2{
+        color: white;
+        font-size: clamp(30px , 1vw , 35px);
+        margin-right: 50px;
+        margin-bottom: 30px;
+        z-index:100;
+        font-family: shabnam;
+    }
+
+    section.backgruond>section.matn>p{
+        width: 40%;
+        color: rgb(146, 172,171);
+        font-size: 25px;
+        text-align: right;
+        margin-right: 70px;
+        z-index: 100;
+        font-family: shabnam;
+    }
+
+    section.backgruond>section.matn>p>i{
+        color:  rgb(146, 172,171);
+    }
+
+    .backgruond>.img1{
+        width: 20vh;
+        height: 20vh;
+        object-fit: cover;
+        position: relative;
+        z-index: 1;
+        top: 150px;
+        left:50%;
+        animation-name: eleman11;
+        animation-timing-function: linear;
+        animation-duration:1s;
+        animation-direction:alternate ;
+        animation-iteration-count: infinite;
+    }
+
+    .backgruond>.img2{
+        width: 20vh;
+        height: 20vh;
+        object-fit: cover;
+        position: relative;
+        z-index: 1;
+        top: 150px;
+        left: 5%;
+        animation-name: eleman2;
+        animation-timing-function: linear;
+        animation-duration:2s;
+        animation-direction:alternate ;
+        animation-iteration-count: infinite;
+        
+    }
+
+    .backgruond>.img3{
+        width: 15vh;
+        height: 15vh;
+        object-fit: cover;
+        position: relative;
+        z-index: 1;
+        top: 420px;
+        animation-name: eleman3;
+        animation-timing-function: linear;
+        animation-duration:1s;
+        animation-direction:alternate ;
+        animation-iteration-count: infinite;
+     
+    }
+
+    .backgruond>.img5{
+        width: 13vh;
+        height: 13vh;
+        object-fit: cover;
+        position: relative;
+        z-index: 1;
+        top: 435px;
+        right: 200px;
+        animation-name: eleman22;
+        animation-timing-function: linear;
+        animation-duration:2s;
+        animation-direction:alternate ;
+        animation-iteration-count: infinite;
+    }
+    /* sandogh */
+    .sandogh{
+        position: fixed;
+        top: 0;
+        right: 10px;
+        border-radius: 0px 0px 10px 10px;
+        padding: 1px;
+        transition: 300ms ;
+        z-index: 101;
+    }
+    .sandogh>img{
+        width: 80%;
+        height: 80px;
+        margin-left: 1px;
+        margin-top: -1px;
+        object-fit: cover;
+        transition: 300ms ;
+        border-radius: 0px 0px 10px 10px;
+    }
+    .sandogh:hover>img{
+        box-shadow: 2px 2px 2px rgb(246, 218, 6);
+        height: 100px;
+    }

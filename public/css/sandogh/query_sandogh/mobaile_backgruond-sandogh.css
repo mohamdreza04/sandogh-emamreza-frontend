@@ -1,0 +1,319 @@
+
+  body{
+    background-color: rgb(254, 250, 225);
+  }
+  div.backgruond__sandogh{
+    overflow: hidden;
+    font-family: shabnam;
+  }
+  div.backgruond__sandogh>div.backgruond{
+    width: 100%;
+    height: 70vh;
+    background: url(../../../pictures/mobaile/img-sandogh/Web\ 1920\ –\ 1.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    
+  }
+  div.backgruond__sandogh>h1{
+    position: absolute;
+    z-index: 2;
+    font-size: 40px;
+    top: 23%;
+    right: 35%;
+    color:  rgb(254, 250, 225);
+    font-family: shabnam;
+  }
+
+  div.backgruond__sandogh>h2{
+    position: absolute;
+    z-index: 2;
+    font-size: 35px;
+    top: 23%;
+    right: 20%;
+    color:  rgb(254, 250, 225);
+    opacity: 0%;
+    font-family: shabnam;
+  }
+
+  div.backgruond__sandogh>section{
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+    top: 49%;
+    right: 33vh;
+    opacity: 0%;
+  }
+
+  div.backgruond__sandogh>section>h3{
+    z-index: 3;
+    font-size: 16px;
+    color:  rgb(254, 250, 225);
+    font-family: shabnam;
+  }
+    
+
+  div.backgruond__sandogh>h4{
+    position: absolute;
+    z-index: 2;
+    font-size: 35px;
+    top: 23%;
+    right: 20%;
+    color:  rgb(254, 250, 225);
+    opacity: 0%;
+    font-family: shabnam;
+  }
+
+  div.backgruond__sandogh>h5{
+    position: absolute;
+    z-index: 2;
+    font-size: 35px;
+    top: 23%;
+    right: 20%;
+    color:  rgb(254, 250, 225);
+    opacity: 0%;
+    font-family: shabnam;
+  }
+
+div.backgruond__sandogh>form>input.name{
+  position: absolute;
+  width: 60%;
+  z-index: 200;
+  top: 32%;
+  right: 20%;
+  font-size: 17px;
+  border: none;
+  background-color:rgb(57, 121, 105) ;
+  padding: 10px;
+  border-bottom: 2px solid rgb(254, 250, 225);
+  opacity: 0%;
+}
+
+div.backgruond__sandogh>form>input.name::placeholder{
+  color:rgb(254, 250, 225) ;
+}
+
+div.backgruond__sandogh>form>input.name:focus{
+  outline: none;
+}
+
+div.backgruond__sandogh>form>input.password{
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  top: 42%;
+  right: 20%;
+  font-size: 17px;
+  border: none;
+  background-color:rgb(57, 121, 105) ;
+  padding: 10px;
+  border-bottom: 2px solid rgb(254, 250, 225);
+  opacity: 0%;
+}
+
+div.backgruond__sandogh>form>input.password::placeholder{
+  color:rgb(254, 250, 225) ;
+}
+
+div.backgruond__sandogh>form>input.password:focus{
+  outline: none;
+}
+
+div.backgruond__sandogh>form>input.name_2{
+  position: absolute;
+  width: 60%;
+  z-index: 2;
+  top: 30%;
+  right: 20%;
+  font-size: 17px;
+  border: none;
+  padding: 10px;
+  background-color:rgb(57, 121, 105) ;
+  border-bottom: 2px solid rgb(254, 250, 225);
+  opacity: 0%;
+}
+
+div.backgruond__sandogh>form>input.name_2::placeholder{
+  color:rgb(254, 250, 225) ;
+}
+
+div.backgruond__sandogh>form>input.name_2:focus{
+  outline: none;
+}
+
+div.backgruond__sandogh>form>input.National__code{
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  top: 38%;
+  right: 20%;
+  font-size: 17px;
+  border: none;
+  padding: 10px;
+  background-color:rgb(57, 121, 105) ;
+  border-bottom: 2px solid rgb(254, 250, 225);
+  opacity: 0%;
+}
+
+div.backgruond__sandogh>form>input.National__code::placeholder{
+  color:rgb(254, 250, 225) ;
+}
+
+div.backgruond__sandogh>form>input.National__code:focus{
+  outline: none;
+}
+
+div.backgruond__sandogh>form>input.moaref{
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  top: 46%;
+  right: 20%;
+  font-size: 17px;
+  border: none;
+  padding: 10px;
+  background-color:rgb(57, 121, 105) ;
+  border-bottom: 2px solid rgb(254, 250, 225);
+  opacity: 0%;
+}
+
+div.backgruond__sandogh>form>input.moaref::placeholder{
+  color:rgb(254, 250, 225) ;
+}
+
+div.backgruond__sandogh>form>input.moaref:focus{
+  outline: none;
+}
+
+div.backgruond__sandogh>form>input.phone{
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  top: 54%;
+  right: 20%;
+  font-size: 17px;
+  border: none;
+  padding: 10px;
+  background-color:rgb(57, 121, 105) ;
+  border-bottom: 2px solid rgb(254, 250, 225);
+  opacity: 0%;
+}
+
+div.backgruond__sandogh>form>input.phone::placeholder{
+  color:rgb(254, 250, 225) ;
+}
+
+div.backgruond__sandogh>form>input.phone:focus{
+  outline: none;
+}
+
+div.backgruond__sandogh>form>input.phone__2{
+  position: absolute;
+  width: 60%;
+  z-index: 2;
+  top: 32%;
+  right: 20%;
+  font-size: 17px;
+  border: none;
+  background-color:rgb(57, 121, 105) ;
+  padding: 10px;
+  border-bottom: 2px solid rgb(254, 250, 225);
+  opacity: 0%;
+}
+
+div.backgruond__sandogh>form>input.phone__2::placeholder{
+  color:rgb(254, 250, 225) ;
+}
+
+div.backgruond__sandogh>form>input.phone__2:focus{
+  outline: none;
+}
+
+div.backgruond__sandogh>form>input.login_2{
+  position: absolute;
+  width: 25%;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color:  rgb(254, 250, 225);
+  color: rgb(57, 121, 105) ;
+  cursor: pointer;
+  top: 60%;
+  right: 40%;
+  margin-bottom: 2%;
+  border: none;
+  z-index: 2;
+  opacity: 0%;
+}
+
+div.backgruond__sandogh>form>input.send{
+  position: absolute;
+  width: 25%;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color:  rgb(254, 250, 225);
+  color: rgb(57, 121, 105) ;
+  cursor: pointer;
+  top: 65%;
+  right: 40%;
+  margin-bottom: 2%;
+  border: none;
+  z-index: 2;
+  opacity: 0%;
+}
+
+div.backgruond__sandogh>form>input.send__2{
+  position: absolute;
+  width: 25%;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 50px;
+  background-color:  rgb(254, 250, 225);
+  color: rgb(57, 121, 105) ;
+  cursor: pointer;
+  top: 65%;
+  right: 40%;
+  margin-bottom: 2%;
+  border: none;
+  z-index: 2;
+  opacity: 0%;
+}
+
+
+
+
+button.login{
+    width: 25%;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: rgb(57, 121, 105);
+    color: rgb(254, 250, 225) ;
+    margin-right: 39%;
+    cursor: pointer;
+    margin-bottom: 2%;
+    border: none;
+    margin-top: 17%;
+    font-family: shabnam;
+  }
+button.Membership{
+    width: 25%;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: rgb(254, 250, 225);
+    color:  rgb(57, 121, 105);
+    margin-right: 39%;
+    cursor: pointer;
+    border: 1px solid rgb(156, 188, 180);
+    font-family: shabnam;
+  }
+
+  div.felesh>img{
+    width: 5%;
+    margin-right: 49%;
+    display: none;
+    cursor: pointer;
+  }
+

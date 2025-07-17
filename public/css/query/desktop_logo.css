@@ -1,0 +1,10 @@
+
+    section.logo>img{
+        width: 36vh;
+        height: 45vh;
+        object-fit: cover;
+        position: absolute;
+        top: 30vh;
+        left: 21%;
+        z-index: 102;
+    } 

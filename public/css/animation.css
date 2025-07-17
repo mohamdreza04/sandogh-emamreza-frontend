@@ -1,0 +1,99 @@
+@keyframes slider{
+    0%{
+        background: url(../pictures/mobaile/slider/11.jpg) no-repeat center;
+        background-size: cover;
+    }
+    50%{
+        background: url(../pictures/mobaile/slider/12.jpg) no-repeat center;
+        background-size: cover;
+    }
+    100%{
+        background: url(../pictures/mobaile/slider/13.jpg) no-repeat center;
+        background-size: cover;
+    }
+  
+}
+@keyframes eleman{
+    to{
+    
+        
+    }
+    from{
+       
+        left:49%;
+    }
+}
+@keyframes eleman2{
+    to{
+    
+        
+    }
+    from{
+       left:8%;
+       
+      
+    }
+}
+@keyframes eleman3{
+    to{
+    
+        
+    }
+    from{
+       left:29%;
+       
+      
+    }
+}
+
+@keyframes eleman5{
+    to{
+    
+        
+    }
+    from{
+        right: 40px;
+       
+      
+    }
+}
+/* mobaile end----------------------------------------------- */
+/* desktop start-------------------------------------------- */
+@keyframes slider-desktop{
+    0%{
+        background: url(../pictures/desktop/slider/20230907093330_[fpdl.in]_enchanted-ink-symphony-whimsical-journey-into-abstract-artistry_397134-247_full.jpg) no-repeat center;
+        background-size: cover;
+    }
+    50%{
+        background: url(../pictures/desktop/slider/20230907093223_[fpdl.in]_network-dots-lines_777078-20103_full.jpg) no-repeat center;
+        background-size: cover;
+    }
+    100%{
+        background: url(../pictures/desktop/slider/14.jpg) no-repeat center;
+        background-size: cover;
+    }
+  
+}
+
+@keyframes eleman11{
+    to{
+    
+        
+    }
+    from{
+       
+        left:51%;
+    }
+}
+
+@keyframes eleman22{
+    to{
+    
+        
+    }
+    from{
+        right: 170px;
+       
+      
+    }
+}

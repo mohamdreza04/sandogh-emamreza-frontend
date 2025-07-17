@@ -1,0 +1,11 @@
+
+section.logo>img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 18vh;
+    left: 29%;
+    z-index: 1;
+}
+
