@@ -1,4 +1,4 @@
-@import "/font.css";
-@import "/general_Hom.css";
-@import "/query_Hom/mobaile_backgrournd-Hom.css" only screen and (min-width:0px);
-@import "/query_Hom/mobaile_Hom_menu.css" only screen and (min-width:0px);
+@import "../font.css";
+@import "./general_Hom.css";
+@import "./query_Hom/mobaile_backgrournd-Hom.css" only screen and (min-width:0px);
+@import "./query_Hom/mobaile_Hom_menu.css" only screen and (min-width:0px);

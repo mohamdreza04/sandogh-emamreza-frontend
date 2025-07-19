@@ -1,8 +1,8 @@
-@import "/font.css";
-@import "/general_sandogh.css";
-@import "/sandogh/query_sandogh/mobaile_logo-sandogh.css" only screen and (min-width:0px);
-@import "/sandogh/query_sandogh/mobaile_backgruond-sandogh.css" only screen and (min-width:0px);
-@import "/sandogh/query_sandogh/desktop_backgruond-sandogh.css" only screen and (min-width:768px);
-@import "/sandogh/query_sandogh/desktop_logo-sandigh.css" only screen and (min-width:768px);
+@import "../font.css";
+@import "./general_sandogh.css";
+@import "../sandogh/query_sandogh/mobaile_logo-sandogh.css" only screen and (min-width:0px);
+@import "../sandogh/query_sandogh/mobaile_backgruond-sandogh.css" only screen and (min-width:0px);
+@import "../sandogh/query_sandogh/desktop_backgruond-sandogh.css" only screen and (min-width:768px);
+@import "../sandogh/query_sandogh/desktop_logo-sandigh.css" only screen and (min-width:768px);
 
 
