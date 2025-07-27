@@ -4,7 +4,6 @@
   }
   div.backgruond__sandogh{
     overflow: hidden;
-    font-family: shabnam;
   }
   div.backgruond__sandogh>div.backgruond{
     width: 100%;
@@ -40,8 +39,8 @@
     position: absolute;
     z-index: 3;
     cursor: pointer;
-    top: 49%;
-    right: 33vh;
+    top: 56%;
+    right: 310px;
     opacity: 0%;
   }
 
@@ -49,7 +48,8 @@
     z-index: 3;
     font-size: 16px;
     color:  rgb(254, 250, 225);
-    font-family: shabnam;
+    /* font-family: shabnam_light; */
+    margin-right: -20px;
   }
     
 
@@ -83,8 +83,7 @@ div.backgruond__sandogh>form>input.name{
   right: 20%;
   font-size: 17px;
   border: none;
-  background-color:rgb(57, 121, 105) ;
-  padding: 10px;
+  background-color:rgb(57, 121, 105) ;  padding: 10px;
   border-bottom: 2px solid rgb(254, 250, 225);
   opacity: 0%;
 }
@@ -99,9 +98,9 @@ div.backgruond__sandogh>form>input.name:focus{
 
 div.backgruond__sandogh>form>input.password{
   position: absolute;
-  z-index: 2;
+  z-index: 1000;
   width: 60%;
-  top: 42%;
+  top: 39%;
   right: 20%;
   font-size: 17px;
   border: none;
@@ -317,3 +316,34 @@ button.Membership{
     cursor: pointer;
   }
 
+/* ------------------------------------ */
+ div.backgruond__sandogh>form>#captcha{
+      position: absolute;
+      width: 60%;
+      z-index: 400;
+      top: 46%;
+      right: 20%;
+      font-size: 17px;
+      background-color:#F1EDD6;  
+      padding: 10px;
+      opacity: 0%;
+    }
+    div.backgruond__sandogh>form>input.captcha {
+      position: absolute;
+      width: 60%;
+      z-index: 200;
+      top: 50%;
+      right: 20%;
+      font-size: 17px;
+      border: none;
+      background-color:rgb(57, 121, 105) ;  padding: 10px;
+      border-bottom: 2px solid rgb(254, 250, 225);
+      opacity: 0%;
+    }
+    div.backgruond__sandogh>form>input.captcha::placeholder{
+      color:#F1EDD6;
+    }
+
+    input.captcha:focus{
+      outline: none;
+    }

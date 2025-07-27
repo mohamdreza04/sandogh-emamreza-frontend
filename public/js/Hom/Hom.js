@@ -1,13 +1,16 @@
 let meno=document.getElementById("meno")
 let menu=document.getElementById("menu")
 let exit=document.getElementById("exit")
+let color=document.getElementById("color")
 
 meno.addEventListener("click",function(){
     menu.style.display="block"
+    color.style.backgroundColor=" rgba(22, 22, 22, 0.78)"
 })
 
 exit.addEventListener("click",function(){
     menu.style.display="none"
+    color.style.backgroundColor=" rgba(255, 255, 255, 1)"
 })
 
 

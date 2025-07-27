@@ -18,6 +18,8 @@ let phone=document.getElementById("phone")
 let phone__2=document.getElementById("phone__2")
 let send=document.getElementById("send")
 let send__2=document.getElementById("send__2")
+let captcha=document.getElementById("captcha")
+let captchaInput=document.getElementById("captchaInput")
 // ------------------------------------------
 login.addEventListener("click",function(){
     backgruond.style.height="95vh"
@@ -57,6 +59,14 @@ login.addEventListener("click",function(){
     login_2.style.opacity="100%"
 
     login_2.style.transition="all 3s linear" 
+
+    captcha.style.opacity="100%"
+
+    captcha.style.transition="all 3s linear" 
+
+    captchaInput.style.opacity="100%"
+
+    captchaInput.style.transition="all 3s linear" 
 })
 // ////////////////////////////////////////////////////////////
 flesh.addEventListener("click",function(){
@@ -134,6 +144,14 @@ flesh.addEventListener("click",function(){
 
     phone__2.style.transition="all 100ms linear"
 
+    captcha.style.opacity="0%"
+
+    captcha.style.transition="all 100ms linear" 
+
+    captchaInput.style.opacity="0%"
+
+    captchaInput.style.transition="all 100ms linear" 
+
 })
 // ///////////////////////////////////////////////////////////
 Membership.addEventListener("click",function(){
@@ -202,6 +220,14 @@ h3.addEventListener("click",function(){
 
     h3.style.transition="all 100ms linear"
 
+    captcha.style.opacity="0%"
+
+    captcha.style.transition="all 100ms linear" 
+
+    captchaInput.style.opacity="0%"
+
+    captchaInput.style.transition="all 100ms linear" 
+
     send__2.style.opacity="100%"
 
     send__2.style.transition="all 3s linear"
@@ -214,3 +240,30 @@ h3.addEventListener("click",function(){
 
     phone__2.style.transition="all 3s linear"
 })
+// ------------------------------------------------------------
+  let captchaCode = '';
+
+    function generateCaptcha() {
+      const chars = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      let captcha = '';
+      for (let i = 0; i < 6; i++) {
+        captcha += chars[Math.floor(Math.random() * chars.length)];
+      }
+      captchaCode = captcha;
+      document.getElementById('captcha').innerText = captcha;
+    }
+
+    function validateCaptcha() {
+      const userInput = document.getElementById('captchaInput').value;
+      const result = document.getElementById('result');
+      if (userInput === captchaCode) {
+        result.innerText = ' کپچا درست وارد شد';
+        result.style.color = 'green';
+      } else {
+        result.innerText = ' کپچا اشتباهه، دوباره تلاش کن';
+        result.style.color = 'red';
+        generateCaptcha(); // تولید مجدد
+      }
+    }
+
+    generateCaptcha();

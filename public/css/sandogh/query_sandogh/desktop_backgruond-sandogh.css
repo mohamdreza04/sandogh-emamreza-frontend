@@ -97,8 +97,8 @@ button.Membership{
     position: fixed;
     z-index: 3;
     cursor: pointer;
-    top: 49%;
-    right: 64%;
+    top: 57%;
+    right: 1240px;
     opacity: 0%;
   }
 
@@ -306,3 +306,34 @@ button.Membership{
     z-index: 2;
     opacity: 0%;
   }
+  /* -------------------------------------------- */
+ div.backgruond__sandogh>form>#captcha{
+      position: absolute;
+      width: 30%;
+      z-index: 400;
+      top: 48%;
+      right: 40%;
+      font-size: 17px;
+      background-color:#F1EDD6;  
+      padding: 10px;
+      opacity: 0%;
+    }
+    div.backgruond__sandogh>form>input.captcha {
+      position: absolute;
+      width: 30%;
+      z-index: 200;
+      top: 52%;
+      right: 40%;
+      font-size: 17px;
+      border: none;
+      background-color:rgb(57, 121, 105) ;  padding: 10px;
+      border-bottom: 2px solid rgb(254, 250, 225);
+      opacity: 0%;
+    }
+    div.backgruond__sandogh>form>input.captcha::placeholder{
+      color:#F1EDD6;
+    }
+
+    input.captcha:focus{
+      outline: none;
+    }
