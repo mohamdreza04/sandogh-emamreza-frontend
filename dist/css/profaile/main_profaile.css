@@ -1,0 +1,3 @@
+@import "../font.css";
+@import "./general_profaile.css";
+@import "./query_profaile/mobaile_background.css" only screen and (min-width:0px);

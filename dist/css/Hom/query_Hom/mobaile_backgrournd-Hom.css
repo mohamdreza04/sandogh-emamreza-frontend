@@ -1,0 +1,487 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+section.meno{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+section.meno>img{
+    width: 25px;
+   position: absolute;
+   top: 20%;
+   right: 5%;
+   cursor: pointer;
+}
+
+section.meno>section.payam{
+    width: 30px;
+    height: 30px;
+    background-color:   #D4FFF4;
+    border-radius: 5px;
+    position: absolute;
+    top: 18%;
+    right: 86%;
+    cursor: pointer;
+}
+
+section.meno>section.payam>h1{
+    line-height: 30px;
+    text-align: center;
+}
+
+section.meno>section.payam>section.circle{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    right: 70%;
+}
+/* ----------------------------------------------------------------------- */
+section.matn{
+    width: 100%;
+    margin-top: 5%;
+}
+
+section.matn>h2{
+   margin-right: 5%; 
+   font-size: 16px;
+   color: rgba(0, 0, 0, 0.705);
+}
+
+section.matn>h1{
+    margin-right: 5%;
+    font-family: shabnam;
+}
+/* ----------------------------------------------------------------------- */
+section.mogodi{
+    width: 80%;
+    height: 28vh;
+    margin: 20px auto;
+    border-radius: 40px;
+    background-color: #377868; 
+    position: relative;  
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ---------------------------------------------------------------- */
+section.dastresi{
+    width: 100%;
+    height: 110px;
+}
+
+section.dastresi>section.dastresi__logo{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+section.dastresi>section.dastresi__logo>section.darkhast{
+    width: 67px;
+    height: 67px;
+    background-color: #397969;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+section.dastresi>section.dastresi__logo>section.darkhast>img{
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+section.dastresi>section.dastresi__logo>section.darkhast>h1{
+    font-size: 14px;
+    margin-top: 20px;
+    font-family: shabnam_light ;
+}
+
+section.dastresi>section.dastresi__logo>section.trakonesh{
+    width: 67px;
+    height: 67px;
+    background-color: #397969;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+section.dastresi>section.dastresi__logo>section.trakonesh>img{
+    width: 50%;
+    margin-top: 14px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+section.dastresi>section.dastresi__logo>section.trakonesh>h1{
+    font-size: 14px;
+    margin-top: 11px;
+    margin-right: 9px;
+    font-family: shabnam_light ;
+}
+
+section.dastresi>section.dastresi__logo>section.vam{
+    width: 67px;
+    height: 67px;
+    background-color: #397969;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+section.dastresi>section.dastresi__logo>section.vam>img{
+    width: 50%;
+    margin-top: 14px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+section.dastresi>section.dastresi__logo>section.vam>h1{
+    font-size: 14px;
+    margin-top: 18px;
+    margin-right: 19px;
+    font-family: shabnam_light ;
+}
+
+section.dastresi>section.dastresi__logo>section.ghore__keshe{
+    width: 67px;
+    height: 67px;
+    background-color: #397969;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section.dastresi>section.dastresi__logo>section.ghore__keshe>img{
+    width: 50%;
+    margin-top: 19px;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+section.dastresi>section.dastresi__logo>section.ghore__keshe>h1{
+    font-size: 10px;
+    margin-top: 18px;
+    margin-right: 14px;
+    font-family: shabnam_light ;
+}
+/* ---------------------------------------------------------------------------------- */
+section.dastresi__asan{
+    width: 100%;
+    height: 110px;
+    margin-top: 2%;
+}
+section.dastresi__asan>h1{
+    font-size: 20px;
+    padding-right: 10%;
+    font-family: shabnam ;
+}
+
+section.dastresi__asan>section.dastresi__asan__logo{
+    width: 100%;
+    height: 82px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+section.dastresi__asan>section.dastresi__asan__logo>section.etelaat{
+    width: 67px;
+    height: 67px;
+    background-color: #397969;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section.dastresi__asan>section.dastresi__asan__logo>section.etelaat>img{
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+section.dastresi__asan>section.dastresi__asan__logo>section.etelaat>h1{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family: shabnam_light ;
+}
+
+section.dastresi__asan>section.dastresi__asan__logo>section.seporde{
+    width: 67px;
+    height: 67px;
+    background-color: #397969;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+section.dastresi__asan>section.dastresi__asan__logo>section.seporde>img{
+    width: 50%;
+    margin-top: 14px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+section.dastresi__asan>section.dastresi__asan__logo>section.seporde>h1{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family: shabnam_light ;
+}
+
+section.dastresi__asan>section.dastresi__asan__logo>section.variz{
+    width: 67px;
+    height: 67px;
+    background-color: #397969;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+section.dastresi__asan>section.dastresi__asan__logo>section.variz>img{
+    width: 50%;
+    margin-top: 14px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+section.dastresi__asan>section.dastresi__asan__logo>section.variz>h1{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-family: shabnam_light ;
+}
+
+
+/* ------------------------------------------------------------------------------------ */
+  
+
+.bottom-sheet {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 15vh; /* ارتفاع حالت بسته */
+  background: #CEDEDA;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  transition: height 0.3s ease;
+  overflow: hidden; /* جلوگیری از بیرون زدگی */
+}
+
+.drag-handle {
+  width: 60px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 3px;
+  margin: 10px auto;
+  cursor: grab;
+  user-select: none;
+  flex-shrink: 0; /* ثابت بمونه */
+  position: relative;
+  z-index: 10;
+}
+
+.sheet-content {
+  flex-grow: 1;
+  overflow-y: auto; /* اسکرول داخلی */
+  padding: 10px;
+}
+
+
+.sheet-content::-webkit-scrollbar {
+  display: none; /* مخفی کردن نوار اسکرول در کروم، سافاری و اج */
+}
+
+  div.bottom-sheet>div.sheet-content>div.matn{
+    /* margin-top: 10px; */
+    margin-right: 10%;
+    font-family: shabnam_regolar;
+    color: white;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.bardasht{
+    width: 80%;
+    height: 55px;
+    margin-right: 10%;
+    margin-top: 2%;
+    display: flex ;
+    flex-flow: row nowrap;
+  }
+  
+  div.bottom-sheet>div.sheet-content>div.bardasht>div.logo__bardasht{
+    width: 15%;
+    border-radius: 15px;
+    position: relative;
+    background-color: white;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.bardasht>div.logo__bardasht>img{
+    width:  40%;
+    right: 32%;
+    top: 30%;
+    position: absolute;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.bardasht>div.matn__hesab{
+    width: 30%;
+    height: 55px;
+    padding-right: 2%;
+    color: #225649;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.bardasht>div.matn__hesab>h1{
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: shabnam_light ;
+    
+  }
+  div.bottom-sheet>div.sheet-content>div.bardasht>div.matn__hesab>h2{
+    font-size: 10px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.596);
+    font-family: shabnam_light ;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.bardasht>div.gheymat{
+    width: 55%;
+    height: 55px;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.bardasht>div.gheymat>h1{
+    color: red;
+    font-size: 25px;
+    font-family: shabnam_light ;
+  }
+  div.bottom-sheet>div.sheet-content>div.bardasht>div.gheymat>h2{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.596);
+    font-family: shabnam_light ;
+  }
+  /* ------------------------------------------------------------------------------ */
+
+  div.bottom-sheet>div.sheet-content>div.daryaft{
+    width: 80%;
+    height: 55px;
+    margin-right: 10%;
+    margin-top: 2%;
+    display: flex ;
+    flex-flow: row nowrap;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.daryaft>div.logo__daryaft{
+    width: 15%;
+    border-radius: 15px;
+    position: relative;
+    background-color: white;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.daryaft>div.logo__daryaft>img{
+    width: 40%;
+    position: absolute;
+    right:32%;
+    top: 35%;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.daryaft>div.matn__hesab{
+    width: 30%;
+    height: 55px;
+    padding-right: 2%;
+    color: #225649;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.daryaft>div.matn__hesab>h1{
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: shabnam_light ;
+  }
+  div.bottom-sheet>div.sheet-content>div.daryaft>div.matn__hesab>h2{
+    font-size: 10px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.596);
+    font-family: shabnam_light ;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.daryaft>div.gheymat{
+    width: 55%;
+    height: 55px;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.daryaft>div.gheymat>h1{
+    color: #00A700;
+    font-size: 25px;
+    font-family: shabnam_light ;
+  }
+  div.bottom-sheet>div.sheet-content>div.daryaft>div.gheymat>h2{
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.596);
+    font-family: shabnam_light ;
+  }
+  /* ------------------------------------------------------------------------------- */
+  div.bottom-sheet>div.sheet-content>div.profaile{
+    width: 80%;
+    height: 55px;
+    margin-right: 10%;
+    margin-top: 2%;
+    display: flex ;
+    flex-flow: row nowrap;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.profaile>div.logo__profaile{
+    width: 15%;
+    border-radius: 15px;
+    position: relative;
+    background-color: white;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.profaile>div.logo__profaile>img{
+    width: 45%;
+    position: absolute;
+    right: 30%;
+    top: 29%;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.profaile>div.matn__profaile{
+    width: 30%;
+    height: 55px;
+    padding-right: 2%;
+    color: #225649;
+  }
+
+  div.bottom-sheet>div.sheet-content>div.profaile>div.matn__profaile>h1{
+    font-size: 12px;
+    margin-top: 10px;
+    font-family: shabnam_light ;
+    
+  }
+  div.bottom-sheet>div.sheet-content>div.profaile>div.matn__profaile>h2{
+    font-size: 10px;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.596);
+    font-family: shabnam_light ;
+  }
