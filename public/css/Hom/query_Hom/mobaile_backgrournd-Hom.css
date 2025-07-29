@@ -149,10 +149,7 @@ section.mogodi > section.mtn__emam__sadegh > section.logo__mtn__emam__sadegh {
   align-items: center;
 }
 
-section.mogodi
-  > section.mtn__emam__sadegh
-  > section.logo__mtn__emam__sadegh
-  > img {
+section.mogodi>section.mtn__emam__sadegh>section.logo__mtn__emam__sadegh>img {
   width: 20px;
 }
 
@@ -176,7 +173,6 @@ section.mogodi > section.mtn__emam__sadegh > section.emam__sadegh > h2 {
   color: #e6fff8;
   font-family: shabnam_regolar;
 }
-
 /* ---------------------------------------------------------------- */
 section.dastresi {
   width: 100%;
