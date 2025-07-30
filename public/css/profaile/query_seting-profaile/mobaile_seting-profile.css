@@ -2,7 +2,7 @@ body {
   background-color: #f7fffd; 
 } 
  
-section.close_profaile { 
+section.close_profile { 
   width: 100%; 
   height: 70px; 
   background-color: #cededa; 
@@ -11,17 +11,17 @@ section.close_profaile {
   align-items: center; 
   justify-content: space-between; 
 } 
-section.close_profaile > h1 { 
+section.close_profile > h1 { 
   color: #225649; 
   font-family: shabnam; 
   margin-right: 30px; 
 } 
-section.close_profaile > a > img { 
+section.close_profile > a > img { 
   width: 30%; 
   color: #225649; 
 } 
 /* ******************************* */
-section.edit-profaile-img{
+section.edit-profile-img{
     width: 100%;
     height: 390px;
     margin-top: 52px;
@@ -29,7 +29,7 @@ section.edit-profaile-img{
     justify-content: center;
 }
 
-section.edit-profaile-img>section.profaile-img{
+section.edit-profile-img>section.profile-img{
     width: 386px;
     height: 386px;
     border-radius: 16px;
@@ -40,20 +40,20 @@ section.edit-profaile-img>section.profaile-img{
     position: relative;
 }
 
-section.edit-profaile-img>section.profaile-img>section.ghalb-img>img{
+section.edit-profile-img>section.profile-img>section.ghalb-img>img{
     width: 344px;
     height: 344px;
     position: relative;
     border: 2px solid #225649;
 }
 
-section.edit-profaile-img>section.profaile-img>img{
+section.edit-profile-img>section.profile-img>img{
     width: inherit;
     height: inherit;
     object-fit: cover;
 }
 
-section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh1{
+section.edit-profile-img>section.profile-img>section.ghalb-img>section.flesh1{
     width: 32px;
     height: 8px;
     background: #225649;
@@ -63,7 +63,7 @@ section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh1{
 
 }
 
-section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh2{
+section.edit-profile-img>section.profile-img>section.ghalb-img>section.flesh2{
     width: 32px;
     height: 8px;
     background: #225649;
@@ -74,7 +74,7 @@ section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh2{
     transform: rotate(270deg);
 }
 
-section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh3{
+section.edit-profile-img>section.profile-img>section.ghalb-img>section.flesh3{
     width: 32px;
     height: 8px;
     background: #225649;
@@ -84,7 +84,7 @@ section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh3{
 
 }
 
-section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh4{
+section.edit-profile-img>section.profile-img>section.ghalb-img>section.flesh4{
     width: 32px;
     height: 8px;
     background: #225649;
@@ -95,7 +95,7 @@ section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh4{
     transform: rotate(90deg);
 }
 
-section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh5{
+section.edit-profile-img>section.profile-img>section.ghalb-img>section.flesh5{
     width: 32px;
     height: 8px;
     background: #225649;
@@ -107,7 +107,7 @@ section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh5{
 
 }
 
-section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh6{
+section.edit-profile-img>section.profile-img>section.ghalb-img>section.flesh6{
     width: 32px;
     height: 8px;
     background: #225649;
@@ -118,7 +118,7 @@ section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh6{
     transform: rotate(270deg);
 }
 
-section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh7{
+section.edit-profile-img>section.profile-img>section.ghalb-img>section.flesh7{
     width: 32px;
     height: 8px;
     background: #225649;
@@ -130,7 +130,7 @@ section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh7{
 
 }
 
-section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh8{
+section.edit-profile-img>section.profile-img>section.ghalb-img>section.flesh8{
     width: 32px;
     height: 8px;
     background: #225649;
@@ -139,4 +139,28 @@ section.edit-profaile-img>section.profaile-img>section.ghalb-img>section.flesh8{
     bottom: 32px;
     left: 6px;
     transform: rotate(90deg);
+}
+
+/* ********************************************** */
+
+section.sabt-taghir{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+section.sabt-taghir>input{
+    width: 75px;
+    height: 28px;
+    border-radius: 8px;
+    color: #f7fffd;
+    background: #377868;
+    font-family: shabnam_mediom;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 6px 12px;
+    border: none;
+    margin-right: 40px;
 }
