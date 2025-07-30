@@ -100,13 +100,13 @@ section.mogodi > section.mojodi__hesab > section.mtn__mojodi__hesab {
 }
 
 section.mogodi > section.mojodi__hesab > section.mtn__mojodi__hesab > h1 {
-  font-size: 14px;
+  font-size: 10px;
   color: #e6fff8;
   font-family: shabnam;
 }
 
 section.mogodi > section.mojodi__hesab > section.mtn__mojodi__hesab > h2 {
-  font-size: 12px;
+  font-size: 10px;
   color: #e6fff8;
   font-family: shabnam_regolar;
 }
@@ -122,7 +122,7 @@ section.mogodi > section.mojodi__hesab > section.number__mojodi__hesab {
 }
 
 section.mogodi > section.mojodi__hesab > section.number__mojodi__hesab > h1 {
-  font-size: 18px;
+  font-size: 16px;
   color: #e6fff8;
   font-family: shabnam;
 }
@@ -177,6 +177,7 @@ section.mogodi > section.mtn__emam__sadegh > section.emam__sadegh > h2 {
 section.dastresi {
   width: 100%;
   height: 110px;
+  flex-direction: column;
 }
 
 section.dastresi > section.dastresi__logo {
@@ -187,6 +188,8 @@ section.dastresi > section.dastresi__logo {
   align-items: center;
   padding-right: 10%;
   padding-left: 10%;
+  justify-content: flex-start;
+  column-gap: 10px;
 }
 
 section.dastresi > section.dastresi__logo > section.darkhast {
@@ -195,21 +198,14 @@ section.dastresi > section.dastresi__logo > section.darkhast {
   background-color: #397969;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section.dastresi > section.dastresi__logo > section.darkhast > img {
-  width: 50%;
-  margin-top: 20px;
-  margin-right: 18px;
+  height: 35%;
   cursor: pointer;
-}
-
-section.dastresi > section.dastresi__logo > section.darkhast > h1 {
-  font-size: 14px;
-  margin-top: 20px;
-  margin-right: 10px;
-  font-family: shabnam_light;
 }
 
 section.dastresi > section.dastresi__logo > section.trakonesh {
@@ -218,22 +214,16 @@ section.dastresi > section.dastresi__logo > section.trakonesh {
   background-color: #397969;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section.dastresi > section.dastresi__logo > section.trakonesh > img {
-  width: 50%;
-  margin-top: 22px;
-  margin-right: 18px;
+  width: 40%;
   cursor: pointer;
 }
 
-section.dastresi > section.dastresi__logo > section.trakonesh > h1 {
-  font-size: 14px;
-  margin-top: 15px;
-  margin-right: 12px;
-  font-family: shabnam_light;
-}
 
 section.dastresi > section.dastresi__logo > section.vam {
   width: 73px;
@@ -241,22 +231,16 @@ section.dastresi > section.dastresi__logo > section.vam {
   background-color: #397969;
   border-radius: 20px;
   cursor: pointer;
-  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section.dastresi > section.dastresi__logo > section.vam > img {
-  width: 50%;
-  margin-top: 22px;
-  margin-right: 18px;
+  width: 35%;
   cursor: pointer;
 }
 
-section.dastresi > section.dastresi__logo > section.vam > h1 {
-  font-size: 14px;
-  margin-top: 15px;
-  margin-right: 24px;
-  font-family: shabnam_light;
-}
 
 section.dastresi > section.dastresi__logo > section.ghore__keshe {
   width: 73px;
@@ -264,21 +248,59 @@ section.dastresi > section.dastresi__logo > section.ghore__keshe {
   background-color: #397969;
   border-radius: 20px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section.dastresi > section.dastresi__logo > section.ghore__keshe > img {
-  width: 50%;
-  margin-top: 22px;
-  margin-right: 18px;
+  width: 35%;
   cursor: pointer;
 }
 
-section.dastresi > section.dastresi__logo > section.ghore__keshe > h1 {
-  font-size: 10px;
-  margin-top: 18px;
-  margin-right: 14px;
-  font-family: shabnam_light;
+section.dastresi>section.mtn_dastresi__logo {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 43px;
 }
+
+section.dastresi>section.mtn_dastresi__logo>section.darkhast{
+  margin-right: 10%;
+}
+
+section.dastresi>section.mtn_dastresi__logo>section.darkhast>h1{
+  font-family: shabnam_regolar;
+  font-size: 14px;
+}
+
+section.dastresi>section.mtn_dastresi__logo>section.trakonesh{
+  margin-right: -2%;
+  margin-left: 1%;
+}
+
+section.dastresi>section.mtn_dastresi__logo>section.trakonesh>h1{
+  font-family: shabnam_regolar;
+  font-size: 14px;
+}
+
+section.dastresi>section.mtn_dastresi__logo>section.vam>h1{
+  font-family: shabnam_regolar;
+  font-size: 14px;
+}
+
+section.dastresi>section.mtn_dastresi__logo>section.ghore__keshe>h1{
+  font-family: shabnam_regolar;
+  font-size: 14px;
+}
+
+section.dastresi>section.mtn_dastresi__logo>section.ghore__keshe{
+  margin-right: 2%;
+}
+
 /* ---------------------------------------------------------------------------------- */
 section.dastresi__asan {
   width: 100%;
