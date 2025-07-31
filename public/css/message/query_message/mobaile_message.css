@@ -1,0 +1,102 @@
+body { 
+  background-color: #f7fffd; 
+} 
+ 
+section.close_message { 
+  width: 100%; 
+  height: 70px; 
+  background-color: #cededa; 
+  border-radius: 0px 0px 35px 35px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+} 
+section.close_message > h1 { 
+  color: #225649; 
+  font-family: shabnam; 
+  margin-right: 30px; 
+} 
+section.close_message > a > img { 
+  width: 30%; 
+  color: #225649; 
+} 
+
+/* ---------------------------- */
+
+section.all_message{
+    width: 100%;
+    height: 500px;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.all_message>section.title_message{
+    width: 336px;
+    height: 32px;
+    border-radius: 8px;
+    padding: 0px 16px;
+    line-height: 32px;
+    background: #BFBFBF8C;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px;
+}
+
+section.all_message>section.title_message>section.one{
+    font-family:shabnam;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3C3B3B;
+}
+section.all_message>section.title_message>section.two{
+    font-family: shabnam;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3C3B3B;
+}
+
+section.all_message>a>section.message{
+    width: 336px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #377868;
+    margin-bottom: 7px;
+    padding: 0px 16px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    transition:300ms;
+
+}
+
+section.all_message>a>section.message:hover{
+    background-color: #225649;
+}
+
+section.all_message>a>section.message:hover >section.one{
+    color: #FFFCDC;
+}
+
+section.all_message>a>section.message:hover >section.two{
+    color: #FFFCDC;
+}
+
+section.all_message>a>section.message>section.one{
+    font-family: shabnam;
+    font-weight: 700;
+    font-size: 14px;
+    color: #377868;
+    transition:300ms;
+
+}
+
+section.all_message>a>section.message>section.two{
+    font-family: shabnam;
+    font-weight: 700;
+    font-size: 14px;
+    color: #377868;
+    transition:300ms;
+}

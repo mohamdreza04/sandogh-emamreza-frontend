@@ -16,7 +16,7 @@ section.meno > img {
   cursor: pointer;
 }
 
-section.meno > section.payam {
+section.meno >a> section.payam {
   width: 30px;
   height: 30px;
   background-color: #d4fff4;
@@ -27,12 +27,12 @@ section.meno > section.payam {
   cursor: pointer;
 }
 
-section.meno > section.payam > h1 {
+section.meno >a> section.payam > h1 {
   line-height: 30px;
   text-align: center;
 }
 
-section.meno > section.payam > section.circle {
+section.meno >a> section.payam > section.circle {
   width: 10px;
   height: 10px;
   background-color: red;
