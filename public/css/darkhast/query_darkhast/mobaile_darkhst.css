@@ -1,0 +1,22 @@
+body { 
+  background-color: #f7fffd; 
+} 
+ 
+section.close_darkhast { 
+  width: 100%; 
+  height: 70px; 
+  background-color: #cededa; 
+  border-radius: 0px 0px 35px 35px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+} 
+section.close_darkhast > h1 { 
+  color: #225649; 
+  font-family: shabnam; 
+  margin-right: 30px; 
+} 
+section.close_darkhast > a > img { 
+  width: 30%; 
+  color: #225649; 
+} 

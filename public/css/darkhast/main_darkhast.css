@@ -1,0 +1,3 @@
+@import "../font.css";
+@import "./general_darkhast.css";
+@import "./query_darkhast/mobaile_darkhst.css" only screen and (min-width:0px);
