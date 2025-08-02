@@ -1,0 +1,3 @@
+@import "./font.css";
+@import "./general.css";
+@import "../form/query_form/mobaile_background_form.css" only screen and (min-width:0px);
