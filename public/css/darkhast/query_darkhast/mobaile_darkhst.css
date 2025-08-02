@@ -20,3 +20,62 @@ section.close_darkhast > a > img {
   width: 30%; 
   color: #225649; 
 } 
+
+/* ------------------------------------------------------ */
+ 
+section.typing{
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+
+section.typing > section.typing_box{
+  width: 338px;
+  height: 40px;
+  border-radius: 16px;
+  border: 1px solid #377868;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+section.typing > section.typing_box > input{
+  width: 250px;
+  border: none;
+  font-family: shabnam_mediom;
+  color: #A5A283;
+    
+}
+
+section.typing > section.typing_box > a.fail > div{
+  object-fit: cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.typing > section.typing_box > a.fail > div > img{
+  width: 16px;
+  height: 16px;
+}
+section.typing > section.typing_box > a.send > div{
+  width: 36px;
+  height: 24px;
+  object-fit: cover; 
+  background-color: #377868;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.typing > section.typing_box > a.send > div > img{
+  width: 12px;
+  height: 12px;
+}
