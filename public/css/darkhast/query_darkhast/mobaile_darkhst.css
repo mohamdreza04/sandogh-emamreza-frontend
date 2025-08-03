@@ -26,6 +26,7 @@ section.close_darkhast > a > img {
 section.typing{
   width: 100%;
   height: 100px;
+  background-color: #f7fffd; 
   position: fixed;
   bottom: 0px;
   display: flex;
@@ -78,4 +79,133 @@ section.typing > section.typing_box > a.send > div{
 section.typing > section.typing_box > a.send > div > img{
   width: 12px;
   height: 12px;
+}
+/* --------------------------------------------------------------- */
+
+section.chat{
+  width: 100%;
+  min-height: 700px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto; 
+}
+
+section.chat > div.daryaft{
+  width: 100pp;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row ;
+  justify-content: center;
+  align-items: flex-end ;
+  align-content: center;
+  margin-bottom:15px;
+}
+section.chat > div.daryaft > div.daryaft__profile{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-left: 10px;
+}
+
+section.chat > div.daryaft > div.daryaft__profile > a{
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #225649;
+  background-color: #B2FFEB;
+}
+
+section.chat > div.daryaft > div.daryaft__message{
+  width: 269px;
+  height: 290px;
+  background-color: #4F9A87;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section.chat > div.daryaft > div.daryaft__message > span {
+  width: 221px;
+  height: 18px;
+  margin-bottom: 10px;
+  line-height: 18px;
+  font-family: shabnam_regolar;
+  font-size: 12px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+section.chat > div.daryaft > div.daryaft__message > p {
+  width: 221px;
+  height: 216px;
+  line-height: 18px;
+  font-family: shabnam_regolar;
+  font-size: 12px;
+  font-weight: 400;
+  color: #F7FFFD;
+}
+
+/* ersal */
+
+section.chat > div.ersal{
+  width: 100pp;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse ;
+  justify-content: center;
+  align-items: flex-end ;
+  align-content: center;
+}
+section.chat > div.ersal > div.ersal__profile{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+section.chat > div.ersal > div.ersal__profile > a{
+  width: 56px;
+  height: 56px;
+  border-radius: 8px;
+  border: 1px solid #225649;
+  background-color: #B2FFEB;
+}
+
+section.chat > div.ersal > div.ersal__message{
+  width: 269px;
+  height: 290px;
+  background-color: #B2FFEB;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section.chat > div.ersal > div.ersal__message > span {
+  width: 221px;
+  height: 18px;
+  margin-bottom: 10px;
+  line-height: 18px;
+  font-family: shabnam_regolar;
+  font-size: 12px;
+  font-weight: 400;
+  color: #225649;
+}
+
+section.chat > div.ersal > div.ersal__message > p {
+  width: 221px;
+  height: 216px;
+  line-height: 18px;
+  font-family: shabnam_regolar;
+  font-size: 12px;
+  font-weight: 400;
+  color: #225649;
 }
