@@ -10,6 +10,7 @@ section.close_darkhast {
   display: flex; 
   align-items: center; 
   justify-content: space-between; 
+  position: fixed;
 } 
 section.close_darkhast > h1 { 
   color: #225649; 
@@ -85,7 +86,7 @@ section.typing > section.typing_box > a.send > div > img{
 section.chat{
   width: 100%;
   min-height: 700px;
-  margin-top: 50px;
+  padding-top: 110px;
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
